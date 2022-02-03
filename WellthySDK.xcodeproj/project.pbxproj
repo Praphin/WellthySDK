@@ -11,6 +11,20 @@
 		71C301C327ABB57D00B59E19 /* WellthySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C301B827ABB57D00B59E19 /* WellthySDK.framework */; };
 		71C301C827ABB57D00B59E19 /* WellthySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301C727ABB57D00B59E19 /* WellthySDKTests.swift */; };
 		71C301C927ABB57D00B59E19 /* WellthySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C301BB27ABB57D00B59E19 /* WellthySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71C301D427ABB5A900B59E19 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 71C301D327ABB5A900B59E19 /* Alamofire */; };
+		71C301EC27ABBFC800B59E19 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301EB27ABBFC800B59E19 /* AuthResponse.swift */; };
+		71C301EE27ABBFEA00B59E19 /* AuthenticationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301ED27ABBFEA00B59E19 /* AuthenticationResource.swift */; };
+		71C301F027ABC00100B59E19 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301EF27ABC00100B59E19 /* Authentication.swift */; };
+		71C301F727ABC06C00B59E19 /* ApiResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301F627ABC06C00B59E19 /* ApiResource.swift */; };
+		71C301F927ABC0A200B59E19 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301F827ABC0A200B59E19 /* StringExtension.swift */; };
+		71C301FB27ABC0BB00B59E19 /* DebugLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301FA27ABC0BB00B59E19 /* DebugLogger.swift */; };
+		71C301FD27ABC0E800B59E19 /* SDKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301FC27ABC0E800B59E19 /* SDKConstants.swift */; };
+		71C301FF27ABC0F800B59E19 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C301FE27ABC0F800B59E19 /* URLConstants.swift */; };
+		71C3020127ABC10B00B59E19 /* SDKVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3020027ABC10B00B59E19 /* SDKVariables.swift */; };
+		71C3020A27ABC20000B59E19 /* OnboardingResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3020927ABC20000B59E19 /* OnboardingResource.swift */; };
+		71C3020C27ABC22400B59E19 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3020B27ABC22400B59E19 /* Registration.swift */; };
+		71C3020E27ABC23500B59E19 /* RegistrationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3020D27ABC23500B59E19 /* RegistrationBuilder.swift */; };
+		71C3021027ABC24900B59E19 /* RegistrationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C3020F27ABC24900B59E19 /* RegistrationResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,19 @@
 		71C301BC27ABB57D00B59E19 /* WellthySDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WellthySDK.docc; sourceTree = "<group>"; };
 		71C301C227ABB57D00B59E19 /* WellthySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellthySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C301C727ABB57D00B59E19 /* WellthySDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellthySDKTests.swift; sourceTree = "<group>"; };
+		71C301EB27ABBFC800B59E19 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		71C301ED27ABBFEA00B59E19 /* AuthenticationResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResource.swift; sourceTree = "<group>"; };
+		71C301EF27ABC00100B59E19 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		71C301F627ABC06C00B59E19 /* ApiResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResource.swift; sourceTree = "<group>"; };
+		71C301F827ABC0A200B59E19 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		71C301FA27ABC0BB00B59E19 /* DebugLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLogger.swift; sourceTree = "<group>"; };
+		71C301FC27ABC0E800B59E19 /* SDKConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKConstants.swift; sourceTree = "<group>"; };
+		71C301FE27ABC0F800B59E19 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		71C3020027ABC10B00B59E19 /* SDKVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKVariables.swift; sourceTree = "<group>"; };
+		71C3020927ABC20000B59E19 /* OnboardingResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingResource.swift; sourceTree = "<group>"; };
+		71C3020B27ABC22400B59E19 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		71C3020D27ABC23500B59E19 /* RegistrationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationBuilder.swift; sourceTree = "<group>"; };
+		71C3020F27ABC24900B59E19 /* RegistrationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C301D427ABB5A900B59E19 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				71C301BB27ABB57D00B59E19 /* WellthySDK.h */,
+				71C301E827ABBD9D00B59E19 /* Authentication */,
+				71C3020627ABC19800B59E19 /* Onboarding */,
+				71C301F127ABC01300B59E19 /* Common */,
 				71C301BC27ABB57D00B59E19 /* WellthySDK.docc */,
 			);
 			path = WellthySDK;
@@ -83,6 +114,104 @@
 				71C301C727ABB57D00B59E19 /* WellthySDKTests.swift */,
 			);
 			path = WellthySDKTests;
+			sourceTree = "<group>";
+		};
+		71C301E827ABBD9D00B59E19 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				71C301EA27ABBFB100B59E19 /* Resources */,
+				71C301E927ABBFA500B59E19 /* Model */,
+				71C301EF27ABC00100B59E19 /* Authentication.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		71C301E927ABBFA500B59E19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C301EB27ABBFC800B59E19 /* AuthResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71C301EA27ABBFB100B59E19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71C301ED27ABBFEA00B59E19 /* AuthenticationResource.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71C301F127ABC01300B59E19 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				71C301F527ABC04400B59E19 /* Variables */,
+				71C301F427ABC03D00B59E19 /* Constants */,
+				71C301F327ABC03000B59E19 /* Extension */,
+				71C301F227ABC02700B59E19 /* Network */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		71C301F227ABC02700B59E19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				71C301F627ABC06C00B59E19 /* ApiResource.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		71C301F327ABC03000B59E19 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				71C301F827ABC0A200B59E19 /* StringExtension.swift */,
+				71C301FA27ABC0BB00B59E19 /* DebugLogger.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		71C301F427ABC03D00B59E19 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				71C301FC27ABC0E800B59E19 /* SDKConstants.swift */,
+				71C301FE27ABC0F800B59E19 /* URLConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		71C301F527ABC04400B59E19 /* Variables */ = {
+			isa = PBXGroup;
+			children = (
+				71C3020027ABC10B00B59E19 /* SDKVariables.swift */,
+			);
+			path = Variables;
+			sourceTree = "<group>";
+		};
+		71C3020627ABC19800B59E19 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				71C3020827ABC1D800B59E19 /* Model */,
+				71C3020727ABC1D000B59E19 /* Resources */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		71C3020727ABC1D000B59E19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71C3020927ABC20000B59E19 /* OnboardingResource.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71C3020827ABC1D800B59E19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C3020B27ABC22400B59E19 /* Registration.swift */,
+				71C3020D27ABC23500B59E19 /* RegistrationBuilder.swift */,
+				71C3020F27ABC24900B59E19 /* RegistrationResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +242,9 @@
 			dependencies = (
 			);
 			name = WellthySDK;
+			packageProductDependencies = (
+				71C301D327ABB5A900B59E19 /* Alamofire */,
+			);
 			productName = WellthySDK;
 			productReference = 71C301B827ABB57D00B59E19 /* WellthySDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -162,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 71C301AE27ABB57D00B59E19;
+			packageReferences = (
+				71C301D227ABB5A900B59E19 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 71C301B927ABB57D00B59E19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -194,7 +329,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C3020E27ABC23500B59E19 /* RegistrationBuilder.swift in Sources */,
 				71C301BD27ABB57D00B59E19 /* WellthySDK.docc in Sources */,
+				71C301FF27ABC0F800B59E19 /* URLConstants.swift in Sources */,
+				71C301F927ABC0A200B59E19 /* StringExtension.swift in Sources */,
+				71C301EC27ABBFC800B59E19 /* AuthResponse.swift in Sources */,
+				71C301FB27ABC0BB00B59E19 /* DebugLogger.swift in Sources */,
+				71C301F727ABC06C00B59E19 /* ApiResource.swift in Sources */,
+				71C3020C27ABC22400B59E19 /* Registration.swift in Sources */,
+				71C3020A27ABC20000B59E19 /* OnboardingResource.swift in Sources */,
+				71C3021027ABC24900B59E19 /* RegistrationResponse.swift in Sources */,
+				71C3020127ABC10B00B59E19 /* SDKVariables.swift in Sources */,
+				71C301FD27ABC0E800B59E19 /* SDKConstants.swift in Sources */,
+				71C301F027ABC00100B59E19 /* Authentication.swift in Sources */,
+				71C301EE27ABBFEA00B59E19 /* AuthenticationResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +490,7 @@
 		71C301CD27ABB57D00B59E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -349,6 +498,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_TEXT_BASED_STUBS = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,6 +519,7 @@
 		71C301CE27ABB57D00B59E19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -376,6 +527,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_TEXT_BASED_STUBS = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -396,6 +548,7 @@
 		71C301D027ABB57D00B59E19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -411,6 +564,7 @@
 		71C301D127ABB57D00B59E19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -454,6 +608,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71C301D227ABB5A900B59E19 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71C301D327ABB5A900B59E19 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71C301D227ABB5A900B59E19 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71C301AF27ABB57D00B59E19 /* Project object */;
 }
