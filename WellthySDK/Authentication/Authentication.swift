@@ -14,8 +14,8 @@ public class Authentication {
     /// Paramters will read automatically from plist in parent app
     /// This function does not required any parameter as input.
     /// - Paramters:
-    ///     - client id: client id allocated to each client
-    ///     - secret_token: token given for each client
+    ///     - client id: client id allocated to each client.
+    ///     - secret_token: token given for each client.
     /// - Response:
     ///         Returns success if authenticated else throw failure
     public static func authSDK(completion: @escaping ((_ code: Int, _ response: [String:Any]?, _ error: Error?)->Void)) {
