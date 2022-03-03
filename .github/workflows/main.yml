@@ -14,19 +14,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        # Disabling shallow clone is recommended for improving relevancy of reporting
         fetch-depth: 0
-      # Triggering SonarQube analysis as results of it are required by Quality Gate check
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
       env:
-        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        SONAR_TOKEN: ${{ 67dc75fabe2b624e9ce5df07f16377c372be8b0a }}
+        SONAR_HOST_URL: ${{ https://sonarqube.wellthy.me }}
     - name: SonarQube Quality Gate check
       uses: sonarsource/sonarqube-quality-gate-action@master
-      # Force to fail step after specific time
       timeout-minutes: 5
       env:
-       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-      
+       SONAR_TOKEN: ${{ 67dc75fabe2b624e9ce5df07f16377c372be8b0a }}
