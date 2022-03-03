@@ -23,8 +23,6 @@ target '<Your Target Name>' do
 end
 ```
 
-// ites under development
-
 Then, run the following command:
 
 ```bash
