@@ -18,10 +18,10 @@ jobs:
     - name: SonarQube Scan
       uses: sonarsource/sonarqube-scan-action@master
       env:
-        SONAR_TOKEN: ${{ 67dc75fabe2b624e9ce5df07f16377c372be8b0a }}
-        SONAR_HOST_URL: ${{ https://sonarqube.wellthy.me }}
+        SONAR_TOKEN: ${{ "67dc75fabe2b624e9ce5df07f16377c372be8b0a" }}
+        SONAR_HOST_URL: ${{ "https://sonarqube.wellthy.me" }}
     - name: SonarQube Quality Gate check
       uses: sonarsource/sonarqube-quality-gate-action@master
       timeout-minutes: 5
       env:
-       SONAR_TOKEN: ${{ 67dc75fabe2b624e9ce5df07f16377c372be8b0a }}
+       SONAR_TOKEN: ${{ "67dc75fabe2b624e9ce5df07f16377c372be8b0a" }}
